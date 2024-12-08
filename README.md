@@ -70,4 +70,4 @@ Quando o botão físico for pressionado, o estado da lâmpada será alterado tan
 ## Autoria
 
 **Autor:** Eduardo Dezena Gonçalves  
-**Data de criação:**  dezembro de 2024
+**Data de criação:** 7 dezembro de 2024
