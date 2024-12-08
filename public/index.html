@@ -3,14 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Controle de Lâmpada 💡</title>
+	<title>Arduino Web Lamp Controller</title>
+    <link rel="icon" href="bulb.ico" type="image/x-icon">
 	<script src="/socket.io/socket.io.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h1>Controle de Lâmpada</h1>
+	<h1>Arduino Web Lamp Controller</h1>
+	<h2>Turn the lamp on and off using web and Arduino integration</h2>
+	<button id="theme-toggle" class="theme-toggle">
+		<span id="theme-icon" class="material-icons">light_mode</span>
+	</button>
 	<div id="lamp-container">
-		<img id="lamp" src="bulb_off.svg" alt="Lâmpada apagada">
+		<img id="lamp" src="bulb_off.svg" class="off" alt="Lâmpada apagada">
   	</div>
 	<script src="script.js"></script>
 </body>
