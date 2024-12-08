@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#lamp-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#lamp {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#lamp.on {
+    transform: scale(1.1);
+    filter: drop-shadow(8px 8px 10px #e9e337);
+}
+
+#lamp.off {
+    filter: drop-shadow(8px 8px 10px gray);
+}
