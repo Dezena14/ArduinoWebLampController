@@ -13,7 +13,8 @@ let lampState = false; // false = apagada, true = acesa
 
 // Configuração da porta serial
 const serialPort = new SerialPort({
-    path: "COM3", // Substitua pelo caminho da sua porta
+    /* Verifique a porta correta do Arduino (varia entre sistemas operacionais: COMx no Windows, /dev/ttyUSBx ou /dev/tty.usbmodemXXXX no Linux/macOS) */
+    path: "COM3",
     baudRate: 9600,
 });
 
